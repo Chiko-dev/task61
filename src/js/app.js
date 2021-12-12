@@ -1,4 +1,4 @@
 
 window.addEventListener("DOMContentLoaded", () => {
-    document.querySelector(".hot").append("flame icon");
+    document.querySelector(".hot").append("🔥");
 });
