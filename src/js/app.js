@@ -1,6 +1,8 @@
 
 window.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".hot").forEach(function(hot) {
+    document.querySelectorAll(".price]").forEach(function(hot) {
+        if (hot.classList.contains(".hot")){
            hot.append("🔥");
+        }
     });
 });
