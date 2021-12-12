@@ -1,9 +1,5 @@
 import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("hot").forEach(hot, () => {
-      for ( let i = 0; i < hot.length; i++){
-        hot[i].append("test");
-      }
-  });
+    document.querySelector(".hot").append("flame icon");
 });
