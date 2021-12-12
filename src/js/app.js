@@ -1,4 +1,6 @@
 
 window.addEventListener("DOMContentLoaded", () => {
-    document.querySelector(".hot").append("🔥");
+    document.querySelectorAll(".hot").forEach(hot, () => {
+        hot.append("🔥");
+    });
 });
